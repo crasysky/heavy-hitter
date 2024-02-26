@@ -5,4 +5,4 @@ void init(int k);
 vector <int> report();
 void add(int x); 
 void Set(int a, int b);
-int Ask(int a);
+int Get(int a);

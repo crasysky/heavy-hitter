@@ -10,7 +10,7 @@ void Set(int a, int b) {
     if(a < 0 || a >= N) assert(0);
     arr[a] = b; 
 }
-int Ask(int a) {
+int Get(int a) {
     if(a < 0 || a >= N) assert(0);
     return arr[a];
 }
