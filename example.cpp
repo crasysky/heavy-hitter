@@ -16,9 +16,9 @@ u64 fasthash64(u64 v, u64 seed) {
 	return mix(h);
 }
 
-int n, k; 
-void init(int _n, int _k) {
-    n = _n, k = _k; 
+int k; 
+void init(int _k) {
+    k = _k; 
 }
 void add(int x) {
     return;
